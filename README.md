@@ -66,22 +66,16 @@ I am a **Multi-Disciplinary Software Engineer** specializing in native mobile ar
 
 ---
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sourish25&theme=tokyonight&column=7&margin-w=15" width="100%" alt="Sourish's GitHub Trophies" />
-</p>
-
----
-
-## 📈 GitHub Analytics & Activity
+## 📈 GitHub Insights & Live Metrics
 
 ### 🎨 Contribution Graph (Sketched Chalk Style)
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sourish25&theme=react-dark&bg_color=1e1e2e&color=cba6f7&line=cba6f7&point=f9e2af&area=true&hide_border=true" width="100%" alt="Sourish's Activity Graph" />
 </p>
 
+### 📊 Repository Insights & Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sourish25&show_icons=true&theme=tokyonight&hide_border=true" width="49%" alt="Sourish's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sourish25&layout=compact&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages" />
+  <img src="https://img.shields.io/github/followers/Sourish25?label=Followers&style=for-the-badge&color=cba6f7&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Sourish25/MineBucks?label=MineBucks%20Stars&style=for-the-badge&color=f9e2af&logo=github&logoColor=white" alt="MineBucks Stars" />
+  <img src="https://img.shields.io/github/stars/Sourish25/Right-Click-to-Harvest?label=Harvest%20Stars&style=for-the-badge&color=a6e3a1&logo=github&logoColor=white" alt="Harvest Mod Stars" />
 </p>
