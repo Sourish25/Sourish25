@@ -44,7 +44,7 @@
               <p style="margin: 4px 0 4px 30px;">📄 <span style="color: #f9e2af;">MineBucks.kt</span></p>
               <p style="margin: 4px 0 4px 30px;">📄 <span style="color: #f38ba8;">OrgaNexus.py</span></p>
               <p style="margin: 20px 0 10px 0; color: #cdd6f4; font-weight: bold;">📊 VISITS</p>
-              <img src="https://profile-counter.glitch.me/Sourish25/count.svg" width="100%" alt="Visits" />
+              <img src="https://profile-counter.glitch.me/Sourish25/count.svg" width="120" alt="Visits" />
             </td>
             <!-- IDE Main Code Editor -->
             <td width="75%" valign="top" style="padding-left: 20px; font-family: 'Fira Code', monospace; font-size: 14px; text-align: left; line-height: 1.6;">
