@@ -2,9 +2,9 @@
 
 <div align="center">
   <!-- macOS style Terminal Window Header -->
-  <table width="100%">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td style="background-color: #1e1e2e; border-top-left-radius: 8px; border-top-right-radius: 8px; padding: 10px; border: 1px solid #313244;">
+      <td bgcolor="#1e1e2e" style="border-top-left-radius: 8px; border-top-right-radius: 8px; padding: 10px; border: 1px solid #313244;">
         <span style="color: #f38ba8;">●</span> 
         <span style="color: #f9e2af;">●</span> 
         <span style="color: #a6e3a1;">●</span>
@@ -13,7 +13,7 @@
       </td>
     </tr>
     <tr>
-      <td style="background-color: #11111b; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; border: 1px solid #313244; text-align: center;">
+      <td bgcolor="#11111b" style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; border: 1px solid #313244; text-align: center;">
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=cba6f7&center=true&vCenter=true&width=600&height=60&lines=ssh+guest@sourish.dev;Connecting+to+mainframe...;Access+Granted!+Welcome+developer.;load+system_kernel.sys;run+MineBucks.kt;run+OrgaNexus.py" alt="Typing SVG" />
       </td>
     </tr>
@@ -22,27 +22,26 @@
 
 <br>
 
-<div align="center">
-  <!-- 8-Bit Pixel View Counter -->
-  <img src="https://profile-counter.glitch.me/Sourish25/count.svg" alt="Mainframe Accesses Counter" />
-  <p><sub style="color: #6c7086;">MAINFRAME ACCESSES COUNTER</sub></p>
-</div>
-
 ---
 
-### 📟 System Configurations (`neofetch`)
+### 📟 System Specifications
 
-```text
-               .           sourish@mainframe
-              / \          -----------------
-             |\_/|         OS: Arch Linux x86_64 / Windows 11
-             |---|         Kernel: Human Brain v1.0.0
-             |   |         Uptime: 20 years
-            /     \        Shell: zsh (starship theme)
-           |       |       Editor: IntelliJ IDEA / Neovim / VS Code
-           |_______|       Active Project: MineBucks 📈
-          /_________\      Target: AI Swarms & Mobile Systems
-```
+<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#1e1e2e" align="center" width="30%" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; padding: 20px; border: 1px solid #313244; border-right: none;">
+      <img src="https://profile-counter.glitch.me/Sourish25/count.svg" width="150" alt="Views Counter" />
+      <br><br>
+      <code style="color: #cba6f7; font-family: 'Fira Code', monospace;">sourish@mainframe</code>
+    </td>
+    <td bgcolor="#11111b" width="70%" style="border-top-right-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; font-family: 'Fira Code', monospace; color: #cdd6f4; border: 1px solid #313244; border-left: none;">
+      <p style="margin: 5px 0;"><span style="color: #f38ba8;"><b>💻 OS:</b></span> Arch Linux / Windows 11</p>
+      <p style="margin: 5px 0;"><span style="color: #f9e2af;"><b>🧠 Kernel:</b></span> Human Brain v1.0.0</p>
+      <p style="margin: 5px 0;"><span style="color: #a6e3a1;"><b>🐚 Shell:</b></span> zsh (starship theme)</p>
+      <p style="margin: 5px 0;"><span style="color: #89b4fa;"><b>📝 Editor:</b></span> IntelliJ IDEA / Neovim / VS Code</p>
+      <p style="margin: 5px 0;"><span style="color: #cba6f7;"><b>🎯 Target:</b></span> AI Agent Swarms & Mobile Systems</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -69,31 +68,68 @@
 
 ### 🗺️ Project Pipeline & Roadmap
 
-| 📂 Backlog | 🏗️ In Progress | 🚀 Shipped |
-| :--- | :--- | :--- |
-| **Invest-Connect**<br><sub style="color: #6c7086;">Startup Connector</sub> | **BizAgent 🚀**<br><sub style="color: #6c7086;">Hinglish Voice AI Munim</sub> | **MineBucks 📈**<br><sub style="color: #6c7086;">Mobile Creator Dashboard</sub> |
-| **Dev-Cloud**<br><sub style="color: #6c7086;">Freelance Hub</sub> | **OrgaNexus 🌌**<br><sub style="color: #6c7086;">LangGraph Event Swarm</sub> | **Right Click to Harvest 🌾**<br><sub style="color: #6c7086;">Server-Side Java Mod</sub> |
+<table align="center" width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <!-- Backlog -->
+    <td bgcolor="#1e1e2e" width="33%" valign="top" style="border: 1px solid #313244; border-radius: 8px; padding: 15px;">
+      <p align="center"><img src="https://img.shields.io/badge/%F0%9F%93%82%20Backlog-313244?style=for-the-badge" alt="Backlog" /></p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 14px;"><b>📁 Invest-Connect</b><br><sub style="color: #a6adc8;">Startup Platform</sub></p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 14px;"><b>📁 Dev-Cloud</b><br><sub style="color: #a6adc8;">Freelancer Hub</sub></p>
+    </td>
+    <!-- In Progress -->
+    <td bgcolor="#1e1e2e" width="33%" valign="top" style="border: 1px solid #313244; border-radius: 8px; padding: 15px;">
+      <p align="center"><img src="https://img.shields.io/badge/%F0%9F%8F%97%EF%B8%8F%20In%20Progress-f9e2af?style=for-the-badge&logoColor=black" alt="In Progress" /></p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 14px;"><b>🏗️ BizAgent 🚀</b><br><sub style="color: #a6adc8;">Voice Hinglish AI</sub></p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 14px;"><b>🏗️ OrgaNexus 🌌</b><br><sub style="color: #a6adc8;">LangGraph Swarm</sub></p>
+    </td>
+    <!-- Shipped -->
+    <td bgcolor="#1e1e2e" width="33%" valign="top" style="border: 1px solid #313244; border-radius: 8px; padding: 15px;">
+      <p align="center"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20Shipped-a6e3a1?style=for-the-badge&logoColor=black" alt="Shipped" /></p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 14px;"><b>🚀 MineBucks 📈</b><br><sub style="color: #a6adc8;">Android App</sub></p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 14px;"><b>🚀 R-C to Harvest 🌾</b><br><sub style="color: #a6adc8;">Java Mod</sub></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🔒 Operational Architecture Spec sheet
+### 📂 Featured Project Showcases
 
-#### [📱 MineBucks 📈](https://github.com/Sourish25/MineBucks) (Creator Financial Dashboard)
-* **Under the Hood**: Native Android (Kotlin, Jetpack Compose, Coroutines, Room DB, WorkManager, Glance).
-* **Engineering Feat**: Safely bypasses strict Google OAuth browser locks inside WebKit WebViews. It dynamically spoofs Mobile User-Agents during verification and injects custom Javascript payload strings directly into the CurseForge DOM to extract Reward Points locally—retaining absolute client-side encryption (`EncryptedSharedPreferences`).
-
-#### [🤖 OrgaNexus 🌌](https://github.com/Sourish25/OrgaNexus) (AI Logistics Orchestrator)
-* **Under the Hood**: Next.js 14, FastAPI, LangGraph, Google Gemini API, Docker.
-* **Engineering Feat**: Uses a multi-agent Directed Cyclic Graph (Swarm) architecture. Includes background worker channels that react, reroute agenda schedules, and dispatch SMTP updates immediately when a dynamic "Pulse Drift" anomaly alert is triggered.
+<table align="center" width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td bgcolor="#1e1e2e" width="50%" valign="top" style="border: 1px solid #313244; border-radius: 8px; padding: 20px;">
+      <p align="center">
+        <a href="https://github.com/Sourish25/MineBucks">
+          <img src="https://img.shields.io/badge/MineBucks%20%F0%9F%93%88-Android%20%2F%20Kotlin-7F52FF?style=for-the-badge&logo=android&logoColor=white" />
+        </a>
+      </p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 15px; margin-bottom: 5px;"><b>Creator Revenue Dashboard</b></p>
+      <p style="color: #a6adc8; font-family: monospace; font-size: 13px; min-height: 90px;">
+        Native Android application utilizing Jetpack Compose, Room, WorkManager, and Glance. Integrates a custom on-device browser engine that spoofs WebKit User-Agents and injects DOM JS to bypass secure Google login blocks locally, maintaining absolute privacy.
+      </p>
+    </td>
+    <td bgcolor="#1e1e2e" width="50%" valign="top" style="border: 1px solid #313244; border-radius: 8px; padding: 20px;">
+      <p align="center">
+        <a href="https://github.com/Sourish25/OrgaNexus">
+          <img src="https://img.shields.io/badge/OrgaNexus%20%F0%9F%8C%8C-AI%20Swarm%20Platform-cba6f7?style=for-the-badge&logo=google&logoColor=white" />
+        </a>
+      </p>
+      <p style="color: #cdd6f4; font-family: monospace; font-size: 15px; margin-bottom: 5px;"><b>Autonomous Event Planner</b></p>
+      <p style="color: #a6adc8; font-family: monospace; font-size: 13px; min-height: 90px;">
+        Autonomous multi-agent swarms powered recursively via a LangGraph Directed Cyclic Graph structure. Translates raw prompt drafts into full event schedules and communications, automatically handling real-time logistical emergencies via dynamic "Pulse Drift" rerouting.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 📻 Retro Audio Player
 
 <div align="center">
-  <table width="100%">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td style="background-color: #1e1e2e; border-top-left-radius: 8px; border-top-right-radius: 8px; padding: 10px; border: 1px solid #313244; text-align: left;">
+      <td bgcolor="#1e1e2e" style="border-top-left-radius: 8px; border-top-right-radius: 8px; padding: 10px; border: 1px solid #313244; text-align: left;">
         <span style="color: #f38ba8;">●</span> 
         <span style="color: #f9e2af;">●</span> 
         <span style="color: #a6e3a1;">●</span>
@@ -102,7 +138,7 @@
       </td>
     </tr>
     <tr>
-      <td style="background-color: #11111b; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; border: 1px solid #313244; text-align: center;">
+      <td bgcolor="#11111b" style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; border: 1px solid #313244; text-align: center;">
         <p style="color: #a6e3a1; font-family: 'Fira Code', monospace; font-size: 18px; margin: 0 0 10px 0;"><b>🎵 Track Vibe: Coding & Debugging Soundtrack</b></p>
         <p style="color: #bac2de; font-family: 'Fira Code', monospace; font-size: 14px; margin: 0 0 20px 0;">[ ━━━━━━━●────────────── ] 1:45 / 4:00</p>
         <p>
