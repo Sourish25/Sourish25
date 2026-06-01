@@ -1,81 +1,73 @@
-# Hi there, I'm Sourish! 👋 💻
+# Hi there! I'm Sourish 👋
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="100%" alt="Catppuccin Palette" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=cba6f7&center=true&vCenter=true&width=500&height=50&lines=echo+'Hello+World!';git+commit+-m+'cool+stuff';pip+install+awesome;building+MineBucks;orchestrating+AI+swarms" alt="Typing SVG" />
 </p>
 
-## 🚀 About Me
-
-I am a **Multi-Disciplinary Software Engineer** specializing in native mobile architectures, multi-agent AI swarms, fullstack web development, and systems automation. I love building highly optimized, clean, and reliable software that solves real-world workflow challenges.
-
----
-
-## 🛠️ Expertise & Domains
-
-### 📱 Native Mobile Engineering
-* Building premium, high-performance Android applications using **Kotlin** and **Jetpack Compose (Material3)**.
-* Implementing background persistence, threading, and secure on-device data syncing utilizing **WorkManager**, **Room DB**, and **EncryptedSharedPreferences**.
-
-### 🤖 AI Agent Architectures
-* Designing autonomous multi-agent systems and cyclic swarm logic using **LangGraph** and **Google Gemini API**.
-* Engineering voice-first natural language interfaces utilizing local **OpenAI Whisper** transcription engines.
-
-### 🌐 Fullstack Web Platforms
-* Constructing fluid, modern web ecosystems using **Next.js 14 (App Router)**, **React**, **FastAPI**, **SQLModel**, and **Tailwind CSS**.
-* Implementing dockerized workflows and container configurations via **Docker & Docker Compose**.
-
-### 📦 Automation & Web Scraping
-* Developing robust Python automation scripts, scrapers, and compilers to handle large-scale web scraping, data extraction, and offline compilation.
-
-### 🎮 Systems & Modding
-* Crafting optimized, performance-critical Java utilities, mod loader configurations, and cross-version mappings via **Fabric API** and **Gradle Toolchains**.
+<p align="center">
+  <img src="https://komarev.com/normal-badge/?username=Sourish25&color=cba6f7&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
 
 ---
 
-## ⚙️ Technologies & Tools
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <strong>💻 Languages & Frameworks</strong>
-      <ul>
-        <li>Kotlin, Java, Python, TypeScript, JavaScript</li>
-        <li>Jetpack Compose, Android SDK, Room DB</li>
-        <li>Next.js, React, FastAPI, SQLModel, Tailwind CSS</li>
-      </ul>
-    </td>
-    <td valign="top" width="50%">
-      <strong>⚙️ AI, DevOps & Utilities</strong>
-      <ul>
-        <li>LangGraph, LangChain, Google Gemini API, OpenAI Whisper</li>
-        <li>Docker, Docker Compose, Gradle, Git, GitHub CLI</li>
-        <li>Fabric API, Headless WebKit WebView Scraping</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### 📟 developer.sys info
+```text
+sourish@desktop
+--------------
+OS: Arch Linux / Windows 11
+Kernel: Human Brain v1.0.0
+Shell: zsh / powershell
+Editor: IntelliJ IDEA / VS Code
+Primary Project: MineBucks 📈 (Android creator revenue engine)
+Interests: AI Agent Swarms 🤖 | Mobile Architectures 📱 | Python Automation 📦
+Hobbies: Reading Manhwa/Manga 📖 | Breaking block states in Fabric 🎮
+```
 
 ---
 
-## 🌟 Featured Project Showcase
+### 🛠️ My Playground (Stack)
 
-### [**MineBucks 📈**](https://github.com/Sourish25/MineBucks) — Creator Revenue Dashboard
-> A native Android application that aggregates, tracks, and analyzes creator earnings across Modrinth and CurseForge.
-* **Architecture**: Jetpack Compose, Kotlin Coroutines & Flow, MVVM, Room DB, WorkManager, Jetpack Glance.
-* **Key Innovation**: Features a secure, on-device parsing engine that uses headful/headless WebKit dynamic User-Agent switching and JavaScript DOM-injection to safely authenticate and extract stats locally—preserving 100% user data privacy.
+<p align="left">
+  <!-- Languages -->
+  <a href="https://kotlinlang.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40" /></a>&nbsp;
+  <a href="https://www.oracle.com/java/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40" /></a>&nbsp;
+  <a href="https://python.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" /></a>&nbsp;
+  <a href="https://typescriptlang.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40" /></a>&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" /></a>&nbsp;
+  <!-- Frameworks -->
+  <a href="https://nextjs.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="NextJS" width="40" height="40" /></a>&nbsp;
+  <a href="https://react.dev"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40" /></a>&nbsp;
+  <a href="https://fastapi.tiangolo.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40" /></a>&nbsp;
+  <!-- Tools -->
+  <a href="https://docker.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40" /></a>&nbsp;
+  <a href="https://gradle.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-original.svg" alt="Gradle" width="40" height="40" /></a>&nbsp;
+  <a href="https://git-scm.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" /></a>
+</p>
 
 ---
 
-## 📈 GitHub Insights & Live Metrics
+### 🧪 Featured Creations
 
-### 🎨 Contribution Graph (Sketched Chalk Style)
+#### 📱 [MineBucks 📈](https://github.com/Sourish25/MineBucks)
+* **The Pitch**: A native Android dashboard aggregating Modrinth & CurseForge earnings securely.
+* **Hacker Factor**: Embedded a custom on-device parsing engine. By dynamically spoofing WebKit User-Agents and injecting custom DOM JavaScript, it completely bypasses Google OAuth browser blocks while keeping 100% of auth tokens stored locally (`EncryptedSharedPreferences`).
+
+#### 🤖 [OrgaNexus 🌌](https://github.com/Sourish25/OrgaNexus)
+* **The Pitch**: An autonomous multi-agent swarm event/logistics planner.
+* **Hacker Factor**: Powered recursively via a LangGraph **Directed Cyclic Graph** structure. Scheduler, Logistics, and Comms agents negotiate timelines and automatically reroute plans in real-time when custom "Pulse Drift" emergencies are simulated.
+
+---
+
+### 📊 Insights & Metrics
+
+#### 🎨 Contribution Graph (Sketched Chalk Style)
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sourish25&theme=react-dark&bg_color=1e1e2e&color=cba6f7&line=cba6f7&point=f9e2af&area=true&hide_border=true" width="100%" alt="Sourish's Activity Graph" />
 </p>
 
-### 📊 Repository Insights & Stats
+#### 💾 Live Repo Metrics
 <p align="center">
-  <img src="https://img.shields.io/github/followers/Sourish25?label=Followers&style=for-the-badge&color=cba6f7&logo=github&logoColor=white" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/Sourish25/MineBucks?label=MineBucks%20Stars&style=for-the-badge&color=f9e2af&logo=github&logoColor=white" alt="MineBucks Stars" />
-  <img src="https://img.shields.io/github/stars/Sourish25/Right-Click-to-Harvest?label=Harvest%20Stars&style=for-the-badge&color=a6e3a1&logo=github&logoColor=white" alt="Harvest Mod Stars" />
+  <img src="https://img.shields.io/github/followers/Sourish25?label=FOLLOWERS&style=flat-square&color=cba6f7" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Sourish25/MineBucks?label=MINEBUCKS+STARS&style=flat-square&color=f9e2af" alt="MineBucks Stars" />
+  <img src="https://img.shields.io/github/stars/Sourish25/Right-Click-to-Harvest?label=HARVEST+MOD+STARS&style=flat-square&color=a6e3a1" alt="Harvest Mod Stars" />
 </p>
