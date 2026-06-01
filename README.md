@@ -46,6 +46,16 @@ I am a **Software Engineer** focused on building polished applications, autonomo
 
 ---
 
+### 🎧 Coding Soundtrack
+
+| 🎵 Channel / Playlist | 🎙️ Vibe | 🔗 Listen |
+| :--- | :--- | :---: |
+| **Lofi Hip Hop Radio ☕** | Chill beats for debugging | [YouTube](https://www.youtube.com/watch?v=jfKfPfyJRdk) |
+| **Synthwave / Retrowave ⚡** | High-energy focus tracks | [Spotify](https://open.spotify.com/playlist/37i9dQZF1DXdLTE75A3Kki) |
+| **Ambient / Deep Focus 🧠** | Instrumental flow states | [Spotify](https://open.spotify.com/playlist/37i9dQZF1DX8U72dFhRLvM) |
+
+---
+
 ### 📊 GitHub Insights & Metrics
 
 #### 🎨 Contribution Graph (Sketched Chalk Style)
