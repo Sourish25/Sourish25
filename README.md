@@ -1,47 +1,82 @@
 # sourish@mainframe:~ $ 🚀
 
 <div align="center">
-  <!-- macOS style Terminal Window Header -->
+  <!-- macOS style VS Code Terminal Header -->
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td bgcolor="#1e1e2e" style="border-top-left-radius: 8px; border-top-right-radius: 8px; padding: 10px; border: 1px solid #313244;">
-        <span style="color: #f38ba8;">●</span> 
-        <span style="color: #f9e2af;">●</span> 
-        <span style="color: #a6e3a1;">●</span>
+      <td bgcolor="#1e1e2e" style="border-top-left-radius: 8px; border-top-right-radius: 8px; padding: 12px; border: 1px solid #313244; border-bottom: none;">
+        <span style="color: #f38ba8; font-size: 16px;">●</span> 
+        <span style="color: #f9e2af; font-size: 16px;">●</span> 
+        <span style="color: #a6e3a1; font-size: 16px;">●</span>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <code style="color: #cdd6f4; font-family: 'Fira Code', monospace;">guest@sourish.dev:~</code>
+        <code style="color: #cdd6f4; font-family: 'Fira Code', monospace; font-size: 14px;">Sourish - Visual Studio Code</code>
       </td>
     </tr>
+    <!-- VS Code Active Tabs -->
     <tr>
-      <td bgcolor="#11111b" style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; border: 1px solid #313244; text-align: center;">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=cba6f7&center=true&vCenter=true&width=600&height=60&lines=ssh+guest@sourish.dev;Connecting+to+mainframe...;Access+Granted!+Welcome+developer.;load+system_kernel.sys;run+MineBucks.kt;run+OrgaNexus.py" alt="Typing SVG" />
+      <td bgcolor="#181825" style="border: 1px solid #313244; border-top: none; border-bottom: none; padding: 0 10px;">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td bgcolor="#1e1e2e" style="padding: 8px 15px; border-right: 1px solid #313244; border-top: 2px solid #cba6f7;">
+              <code style="color: #cdd6f4; font-family: 'Fira Code', monospace; font-size: 13px;">💻 profile.json</code>
+            </td>
+            <td bgcolor="#181825" style="padding: 8px 15px; border-right: 1px solid #313244;">
+              <code style="color: #6c7086; font-family: 'Fira Code', monospace; font-size: 13px;">📱 MineBucks.kt</code>
+            </td>
+            <td bgcolor="#181825" style="padding: 8px 15px; border-right: 1px solid #313244;">
+              <code style="color: #6c7086; font-family: 'Fira Code', monospace; font-size: 13px;">🤖 OrgaNexus.py</code>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- IDE Main Workspace -->
+    <tr>
+      <td bgcolor="#11111b" style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; border: 1px solid #313244; border-top: 1px solid #313244;">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <!-- IDE Sidebar File Explorer -->
+            <td width="25%" valign="top" style="border-right: 1px solid #313244; font-family: 'Fira Code', monospace; font-size: 13px; color: #a6adc8; padding-right: 15px;">
+              <p style="margin: 0 0 10px 0; color: #cdd6f4; font-weight: bold;">📁 EXPLORER</p>
+              <p style="margin: 4px 0 4px 10px;">📂 <span style="color: #89b4fa;">src</span></p>
+              <p style="margin: 4px 0 4px 20px;">📂 <span style="color: #89b4fa;">main</span></p>
+              <p style="margin: 4px 0 4px 30px;">📄 <span style="color: #a6e3a1;">profile.json</span></p>
+              <p style="margin: 4px 0 4px 30px;">📄 <span style="color: #f9e2af;">MineBucks.kt</span></p>
+              <p style="margin: 4px 0 4px 30px;">📄 <span style="color: #f38ba8;">OrgaNexus.py</span></p>
+              <p style="margin: 20px 0 10px 0; color: #cdd6f4; font-weight: bold;">📊 VISITS</p>
+              <img src="https://profile-counter.glitch.me/Sourish25/count.svg" width="100%" alt="Visits" />
+            </td>
+            <!-- IDE Main Code Editor -->
+            <td width="75%" valign="top" style="padding-left: 20px; font-family: 'Fira Code', monospace; font-size: 14px; text-align: left; line-height: 1.6;">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="5%" valign="top" style="color: #585b70; border-right: 1px solid #313244; padding-right: 10px; text-align: right; user-select: none;">
+                    1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11
+                  </td>
+                  <td width="95%" valign="top" style="padding-left: 15px; color: #cdd6f4;">
+                    <span style="color: #cba6f7;">{</span><br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"developer"</span>: <span style="color: #a6e3a1;">"Sourish"</span>,<br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"status"</span>: <span style="color: #a6e3a1;">"Building premium Android & AI architectures"</span>,<br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"os"</span>: <span style="color: #a6e3a1;">"Arch Linux / Windows 11"</span>,<br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"shell"</span>: <span style="color: #a6e3a1;">"zsh (starship)"</span>,<br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"editors"</span>: <span style="color: #cba6f7;">[</span><span style="color: #a6e3a1;">"IntelliJ"</span>, <span style="color: #a6e3a1;">"Neovim"</span>, <span style="color: #a6e3a1;">"VS Code"</span><span style="color: #cba6f7;">]</span>,<br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"core_focus"</span>: <span style="color: #cba6f7;">[</span><span style="color: #a6e3a1;">"Kotlin Mobile"</span>, <span style="color: #a6e3a1;">"LangGraph Swarms"</span><span style="color: #cba6f7;">]</span>,<br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"hobbies"</span>: <span style="color: #cba6f7;">[</span><span style="color: #a6e3a1;">"Reading Manhwa"</span>, <span style="color: #a6e3a1;">"Game Modding"</span><span style="color: #cba6f7;">]</span>,<br>
+                    &nbsp;&nbsp;<span style="color: #f38ba8;">"current_project"</span>: <span style="color: #a6e3a1;">"MineBucks 📈"</span><br>
+                    <span style="color: #cba6f7;">}</span><br>
+                    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1000&color=a6e3a1&width=400&height=30&lines=//+Scanning+mainframe+kernels...;//+All+nodes+fully+operational..." alt="Editor Log" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </table>
 </div>
 
 <br>
-
----
-
-### 📟 System Specifications
-
-<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td bgcolor="#1e1e2e" align="center" width="30%" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; padding: 20px; border: 1px solid #313244; border-right: none;">
-      <img src="https://profile-counter.glitch.me/Sourish25/count.svg" width="150" alt="Views Counter" />
-      <br><br>
-      <code style="color: #cba6f7; font-family: 'Fira Code', monospace;">sourish@mainframe</code>
-    </td>
-    <td bgcolor="#11111b" width="70%" style="border-top-right-radius: 8px; border-bottom-right-radius: 8px; padding: 20px; font-family: 'Fira Code', monospace; color: #cdd6f4; border: 1px solid #313244; border-left: none;">
-      <p style="margin: 5px 0;"><span style="color: #f38ba8;"><b>💻 OS:</b></span> Arch Linux / Windows 11</p>
-      <p style="margin: 5px 0;"><span style="color: #f9e2af;"><b>🧠 Kernel:</b></span> Human Brain v1.0.0</p>
-      <p style="margin: 5px 0;"><span style="color: #a6e3a1;"><b>🐚 Shell:</b></span> zsh (starship theme)</p>
-      <p style="margin: 5px 0;"><span style="color: #89b4fa;"><b>📝 Editor:</b></span> IntelliJ IDEA / Neovim / VS Code</p>
-      <p style="margin: 5px 0;"><span style="color: #cba6f7;"><b>🎯 Target:</b></span> AI Agent Swarms & Mobile Systems</p>
-    </td>
-  </tr>
-</table>
 
 ---
 
