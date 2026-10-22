@@ -16,7 +16,7 @@
   </p>
 
   <p align="center">
-    <code>🟢 Open for Systems &amp; Swarm Architecture Collaboration</code> • <code>📍 India (IST / UTC+5:30)</code>
+    <code>🟢 Open for Systems &amp; AI Swarms</code> • <code>📍 India (IST)</code>
   </p>
 
 </div>
@@ -29,18 +29,19 @@
 user: Sourish (@Sourish25)
 role: Systems, Mobile & AI Engineer
 location: India (IST / UTC+5:30)
-status: "Building resilient mobile networking & AI swarms"
+status: "Building Android & AI Swarms"
 
 core_domains:
   android_systems:
-    - Rootless VPN & DPI circumvention (SourZap)
-    - Creator revenue analytics & scraping (MineBucks)
-    - Jetpack Compose, Material 3, Room, WorkManager, Glance
+    - Rootless VPN & DPI (SourZap)
+    - Creator revenue telemetry (MineBucks)
+    - Compose, Material 3, Room, Glance
   ai_agentic_swarms:
-    - Directed Cyclic Graphs via LangGraph (OrgaNexus)
-    - Voice-first MSME ledger with Whisper (BizAgent)
+    - LangGraph Cyclic Graphs (OrgaNexus)
+    - Voice MSME ledger + Whisper (BizAgent)
   fullstack_systems:
-    - Next.js 14, FastAPI, TypeScript, Python, Docker
+    - Next.js 14, FastAPI, TypeScript
+    - Python, Docker, Linux, SQLite
 
 interests:
   - Deep Packet Inspection (DPI)

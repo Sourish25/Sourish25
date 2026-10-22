@@ -139,24 +139,24 @@
   </g>
 
   <!-- ==================== CENTER: TRACK METADATA & CONTROLS ==================== -->
-  <g transform="translate(205, 62)">
+  <g transform="translate(205, 60)">
     <!-- Metadata Badges -->
-    <rect x="0" y="0" width="120" height="19" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="0.8" stroke-opacity="0.6" />
-    <text x="8" y="14" fill="#bb9af7" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10.5" font-weight="700">SYNTHWAVE // LOFI</text>
+    <rect x="0" y="0" width="126" height="20" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="0.8" stroke-opacity="0.6" />
+    <text x="8" y="14.5" fill="#bb9af7" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="11" font-weight="700">SYNTHWAVE // LOFI</text>
     
-    <rect x="130" y="0" width="72" height="19" rx="4" fill="#1f2335" stroke="#7dcfff" stroke-width="0.8" stroke-opacity="0.6" />
-    <text x="138" y="14" fill="#7dcfff" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10.5" font-weight="700">FLAC 24b</text>
+    <rect x="136" y="0" width="76" height="20" rx="4" fill="#1f2335" stroke="#7dcfff" stroke-width="0.8" stroke-opacity="0.6" />
+    <text x="144" y="14.5" fill="#7dcfff" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="11" font-weight="700">FLAC 24b</text>
 
-    <rect x="212" y="0" width="94" height="19" rx="4" fill="#1f2335" stroke="#9ece6a" stroke-width="0.8" stroke-opacity="0.6" />
-    <text x="220" y="14" fill="#9ece6a" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10.5" font-weight="700">FLOW STATE</text>
+    <rect x="222" y="0" width="98" height="20" rx="4" fill="#1f2335" stroke="#9ece6a" stroke-width="0.8" stroke-opacity="0.6" />
+    <text x="230" y="14.5" fill="#9ece6a" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="11" font-weight="700">FLOW STATE</text>
 
     <!-- Main Song Title (Bold, High Contrast, Crisp) -->
-    <text x="0" y="44" fill="#e0e6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" letter-spacing="0.3">
+    <text x="0" y="46" fill="#e0e6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" letter-spacing="0.3">
       Midnight Code Sessions &amp; Deep Systems Flow
     </text>
 
     <!-- Subtitle / Artist -->
-    <text x="0" y="66" fill="#a9b1d6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500">
+    <text x="0" y="68" fill="#a9b1d6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500">
       Sourish • High-Cognition Soundtracks for Android Networking &amp; Autonomous Swarms
     </text>
   </g>
