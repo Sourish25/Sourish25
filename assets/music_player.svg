@@ -1,25 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="100%" height="220" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="100%" height="auto" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <!-- Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradients -->
+    <linearGradient id="deckBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0b0d14" />
-      <stop offset="50%" stop-color="#141724" />
-      <stop offset="100%" stop-color="#0a0c13" />
+      <stop offset="40%" stop-color="#121520" />
+      <stop offset="100%" stop-color="#090a0f" />
     </linearGradient>
 
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#bb9af7" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#7dcfff" stop-opacity="0.7" />
+    <linearGradient id="neonBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#bb9af7" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#7dcfff" stop-opacity="0.8" />
     </linearGradient>
 
-    <linearGradient id="vinylGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2a2e45" />
-      <stop offset="50%" stop-color="#11121d" />
-      <stop offset="100%" stop-color="#191b28" />
+    <linearGradient id="vinylPlatterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2233" />
+      <stop offset="50%" stop-color="#10111a" />
+      <stop offset="100%" stop-color="#181a26" />
     </linearGradient>
 
-    <linearGradient id="centerAlbumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="labelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f7768e" />
       <stop offset="50%" stop-color="#bb9af7" />
       <stop offset="100%" stop-color="#7aa2f7" />
@@ -31,261 +31,262 @@
       <stop offset="100%" stop-color="#7dcfff" />
     </linearGradient>
 
-    <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7aa2f7" />
       <stop offset="50%" stop-color="#bb9af7" />
       <stop offset="100%" stop-color="#7dcfff" />
     </linearGradient>
 
-    <!-- Glow Filter -->
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12" />
+    </linearGradient>
+
+    <!-- Glow & Shadow Filters -->
     <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.7" />
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.75" />
     </filter>
-
-    <style>
-      .spin-vinyl {
-        transform-origin: 105px 125px;
-        animation: spin 9s linear infinite;
-      }
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-
-      .pulse-dot {
-        animation: pulse 1.6s ease-in-out infinite;
-      }
-      @keyframes pulse {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.3; transform: scale(0.8); }
-      }
-
-      .glow-btn:hover {
-        filter: url(#neonGlow);
-        cursor: pointer;
-      }
-    </style>
   </defs>
 
-  <!-- Card Background -->
-  <rect x="5" y="5" width="830" height="210" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" filter="url(#cardShadow)" />
+  <style>
+    .pulse-dot {
+      animation: pulse 1.6s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.85); }
+    }
+  </style>
 
-  <!-- Window Header -->
-  <rect x="5" y="5" width="830" height="34" rx="16" fill="#12131d" />
-  <rect x="5" y="25" width="830" height="14" fill="#12131d" />
-  <line x1="5" y1="39" x2="835" y2="39" stroke="#24283b" stroke-width="1" />
+  <!-- Deck Outer Frame -->
+  <rect x="5" y="5" width="830" height="220" rx="16" fill="url(#deckBgGrad)" stroke="url(#neonBorderGrad)" stroke-width="1.5" filter="url(#cardShadow)" />
+
+  <!-- Deck Top Header -->
+  <rect x="5" y="5" width="830" height="34" rx="16" fill="#11131c" />
+  <rect x="5" y="22" width="830" height="17" fill="#11131c" />
+  <line x1="5" y1="39" x2="835" y2="39" stroke="#1f2335" stroke-width="1" />
 
   <!-- Window Dots -->
   <circle cx="25" cy="22" r="5" fill="#f7768e" />
   <circle cx="41" cy="22" r="5" fill="#e0af68" />
   <circle cx="57" cy="22" r="5" fill="#9ece6a" />
 
-  <!-- Header Title -->
-  <text x="78" y="26" fill="#7aa2f7" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" font-weight="600" letter-spacing="0.5">AUDIO ENGINE // NOW PLAYING</text>
-  
-  <!-- Right status pill -->
-  <g transform="translate(675, 12)">
-    <rect x="0" y="0" width="145" height="20" rx="10" fill="#1a1b26" stroke="#9ece6a" stroke-width="1" stroke-opacity="0.5" />
-    <circle cx="12" cy="10" r="4" fill="#9ece6a" class="pulse-dot" />
-    <text x="24" y="14" fill="#9ece6a" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold" letter-spacing="0.5">LIVE FLOW MODE</text>
+  <!-- Header Text -->
+  <text x="78" y="26" fill="#7aa2f7" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" font-weight="700" letter-spacing="1">AUDIO DECK // CYBERNETIC SOUND ENGINE</text>
+
+  <!-- Live Mode Pill -->
+  <g transform="translate(668, 11)">
+    <rect x="0" y="0" width="152" height="21" rx="10.5" fill="#161b26" stroke="#9ece6a" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="12" cy="10.5" r="4" fill="#9ece6a" class="pulse-dot" />
+    <text x="24" y="14.5" fill="#9ece6a" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" letter-spacing="0.5">LIVE • 128 BPM</text>
   </g>
 
-  <!-- Left Vinyl Record Player Graphic -->
-  <g class="spin-vinyl">
-    <!-- Vinyl Disc Outer -->
-    <circle cx="105" cy="125" r="58" fill="url(#vinylGrad)" stroke="#3b4261" stroke-width="1.5" />
-    <!-- Grooves -->
-    <circle cx="105" cy="125" r="52" fill="none" stroke="#24283b" stroke-width="1.2" stroke-dasharray="8 3" opacity="0.8" />
-    <circle cx="105" cy="125" r="45" fill="none" stroke="#24283b" stroke-width="1.2" stroke-dasharray="14 4" opacity="0.7" />
-    <circle cx="105" cy="125" r="38" fill="none" stroke="#24283b" stroke-width="1.2" opacity="0.6" />
-    <circle cx="105" cy="125" r="31" fill="none" stroke="#24283b" stroke-width="1" opacity="0.8" />
-    <!-- Center Label -->
-    <circle cx="105" cy="125" r="22" fill="url(#centerAlbumGrad)" stroke="#1a1b26" stroke-width="2" />
-    <!-- Center Spindle Hole -->
-    <circle cx="105" cy="125" r="5" fill="#0b0d14" stroke="#ffffff" stroke-width="1" stroke-opacity="0.5" />
-    <!-- Mini Musical Note in Center -->
-    <path d="M103 121 v6 a3 3 0 1 0 2 2.8 v-6.8 h4 v-2 h-6 z" fill="#ffffff" opacity="0.9" />
-  </g>
+  <!-- ==================== LEFT: TURNTABLE SYSTEM ==================== -->
+  <!-- Platter Well Ring -->
+  <circle cx="115" cy="132" r="68" fill="#0d0e15" stroke="#24283b" stroke-width="1.5" />
+  <circle cx="115" cy="132" r="63" fill="#13151f" stroke="#1f2335" stroke-width="1" />
 
-  <!-- Tone Arm Indicator -->
-  <g transform="translate(42, 60)">
-    <circle cx="8" cy="8" r="4" fill="#7aa2f7" />
-    <path d="M10 10 L28 40 L35 55" fill="none" stroke="#7aa2f7" stroke-width="2.5" stroke-linecap="round" />
-    <rect x="33" y="52" width="7" height="9" rx="1.5" fill="#f7768e" transform="rotate(25 35 55)" />
-  </g>
-
-  <!-- Track Meta Details -->
-  <g transform="translate(195, 66)">
-    <!-- Subtitle / Genre Tag -->
-    <rect x="0" y="0" width="112" height="18" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="0.8" stroke-opacity="0.5" />
-    <text x="8" y="13" fill="#bb9af7" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10" font-weight="bold">SYNTHWAVE // LOFI</text>
+  <!-- Rotating Vinyl Disc (SMIL Math Exact Rotation around cx=115, cy=132) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 115 132" to="360 115 132" dur="7s" repeatCount="indefinite" />
     
-    <rect x="122" y="0" width="75" height="18" rx="4" fill="#1f2335" stroke="#7dcfff" stroke-width="0.8" stroke-opacity="0.5" />
-    <text x="129" y="13" fill="#7dcfff" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10" font-weight="bold">128 BPM</text>
+    <!-- Outer Vinyl Disc -->
+    <circle cx="115" cy="132" r="58" fill="url(#vinylPlatterGrad)" stroke="#394b70" stroke-width="1.2" />
+    
+    <!-- Fine Grooves -->
+    <circle cx="115" cy="132" r="53" fill="none" stroke="#242b3d" stroke-width="1" stroke-dasharray="6 3" opacity="0.8" />
+    <circle cx="115" cy="132" r="47" fill="none" stroke="#242b3d" stroke-width="1" stroke-dasharray="12 4" opacity="0.75" />
+    <circle cx="115" cy="132" r="41" fill="none" stroke="#242b3d" stroke-width="1" stroke-dasharray="8 3" opacity="0.7" />
+    <circle cx="115" cy="132" r="35" fill="none" stroke="#242b3d" stroke-width="1" opacity="0.6" />
+    <circle cx="115" cy="132" r="29" fill="none" stroke="#242b3d" stroke-width="1" stroke-dasharray="10 3" opacity="0.8" />
 
-    <rect x="207" y="0" width="100" height="18" rx="4" fill="#1f2335" stroke="#9ece6a" stroke-width="0.8" stroke-opacity="0.5" />
-    <text x="214" y="13" fill="#9ece6a" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10" font-weight="bold">LOSSLESS AUDIO</text>
+    <!-- Anisotropic Specular Light Sheen Wedges -->
+    <path d="M 115 132 L 67 100 A 58 58 0 0 1 100 75 Z" fill="url(#sheenGrad)" />
+    <path d="M 115 132 L 163 164 A 58 58 0 0 1 130 189 Z" fill="url(#sheenGrad)" />
 
-    <!-- Main Song Title -->
-    <text x="0" y="42" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" letter-spacing="0.2">
+    <!-- Center Album Label -->
+    <circle cx="115" cy="132" r="20" fill="url(#labelGrad)" stroke="#1a1b26" stroke-width="2" />
+    <!-- Center Spindle Hole -->
+    <circle cx="115" cy="132" r="4.5" fill="#0b0d14" stroke="#ffffff" stroke-width="1" stroke-opacity="0.6" />
+    <!-- Center Icon -->
+    <circle cx="115" cy="132" r="2" fill="#7dcfff" />
+  </g>
+
+  <!-- Turntable Tone Arm (Resting authentically in the outer grooves, NOT touching label) -->
+  <g>
+    <!-- Arm Pivot Base -->
+    <circle cx="48" cy="68" r="7" fill="#1f2335" stroke="#7aa2f7" stroke-width="1.5" />
+    <circle cx="48" cy="68" r="3" fill="#7aa2f7" />
+    <!-- Counterweight -->
+    <rect x="42" y="55" width="12" height="6" rx="2" fill="#394b70" />
+    <!-- Tone Arm Shaft -->
+    <path d="M 48 70 L 62 96 L 76 114" fill="none" stroke="#7aa2f7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Headshell & Stylus Cartridge (At x=76, y=114 - radius 42 from center 115,132 = squarely in vinyl grooves) -->
+    <g transform="translate(76, 114) rotate(32)">
+      <rect x="-3" y="-2" width="7" height="11" rx="1.5" fill="#f7768e" stroke="#1f2335" stroke-width="0.8" />
+      <line x1="0.5" y1="9" x2="0.5" y2="12" stroke="#7dcfff" stroke-width="1.2" />
+    </g>
+  </g>
+
+  <!-- ==================== CENTER: TRACK METADATA & CONTROLS ==================== -->
+  <g transform="translate(205, 62)">
+    <!-- Metadata Badges -->
+    <rect x="0" y="0" width="120" height="19" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="0.8" stroke-opacity="0.6" />
+    <text x="8" y="14" fill="#bb9af7" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10.5" font-weight="700">SYNTHWAVE // LOFI</text>
+    
+    <rect x="130" y="0" width="72" height="19" rx="4" fill="#1f2335" stroke="#7dcfff" stroke-width="0.8" stroke-opacity="0.6" />
+    <text x="138" y="14" fill="#7dcfff" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10.5" font-weight="700">FLAC 24b</text>
+
+    <rect x="212" y="0" width="94" height="19" rx="4" fill="#1f2335" stroke="#9ece6a" stroke-width="0.8" stroke-opacity="0.6" />
+    <text x="220" y="14" fill="#9ece6a" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="10.5" font-weight="700">FLOW STATE</text>
+
+    <!-- Main Song Title (Bold, High Contrast, Crisp) -->
+    <text x="0" y="44" fill="#e0e6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" letter-spacing="0.3">
       Midnight Code Sessions &amp; Deep Systems Flow
     </text>
 
-    <!-- Artist / Channel -->
-    <text x="0" y="62" fill="#a6adc8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13">
-      Sourish • Curated High-Cognition Soundtracks for Android &amp; AI Engineering
+    <!-- Subtitle / Artist -->
+    <text x="0" y="66" fill="#a9b1d6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500">
+      Sourish • High-Cognition Soundtracks for Android Networking &amp; Autonomous Swarms
     </text>
   </g>
 
-  <!-- SMIL Animated Equalizer Bars (Precise Y coordinates, no transform origin glitches) -->
-  <g transform="translate(712, 115)">
-    <!-- Bar 1 -->
-    <rect x="0" y="-12" width="4" height="12" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="6;22;12;24;8;18;6" dur="1.3s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-6;-22;-12;-24;-8;-18;-6" dur="1.3s" repeatCount="indefinite" />
+  <!-- Equalizer Spectrum Bars (SMIL Smooth Oscillations) -->
+  <g transform="translate(714, 122)">
+    <!-- 14 Staggered Animated Spectrum Bars -->
+    <rect x="0" y="-12" width="4.5" height="12" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="8;24;14;28;10;20;8" dur="1.25s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-8;-24;-14;-28;-10;-20;-8" dur="1.25s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 2 -->
-    <rect x="7" y="-20" width="4" height="20" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="18;8;24;14;22;6;18" dur="1.1s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-18;-8;-24;-14;-22;-6;-18" dur="1.1s" repeatCount="indefinite" />
+    <rect x="7" y="-20" width="4.5" height="20" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="20;10;28;16;24;8;20" dur="1.1s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-20;-10;-28;-16;-24;-8;-20" dur="1.1s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 3 -->
-    <rect x="14" y="-8" width="4" height="8" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="8;24;16;26;10;14;8" dur="1.4s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-8;-24;-16;-26;-10;-14;-8" dur="1.4s" repeatCount="indefinite" />
+    <rect x="14" y="-8" width="4.5" height="8" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="10;26;18;30;12;16;10" dur="1.35s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-10;-26;-18;-30;-12;-16;-10" dur="1.35s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 4 -->
-    <rect x="21" y="-22" width="4" height="22" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="22;10;26;8;18;24;22" dur="1.2s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-22;-10;-26;-8;-18;-24;-22" dur="1.2s" repeatCount="indefinite" />
+    <rect x="21" y="-22" width="4.5" height="22" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="24;12;28;10;20;26;24" dur="1.15s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-24;-12;-28;-10;-20;-26;-24" dur="1.15s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 5 -->
-    <rect x="28" y="-14" width="4" height="14" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="14;26;8;22;12;26;14" dur="1.0s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-14;-26;-8;-22;-12;-26;-14" dur="1.0s" repeatCount="indefinite" />
+    <rect x="28" y="-14" width="4.5" height="14" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="16;28;10;24;14;30;16" dur="0.95s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-16;-28;-10;-24;-14;-30;-16" dur="0.95s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 6 -->
-    <rect x="35" y="-18" width="4" height="18" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="18;12;24;6;20;10;18" dur="1.35s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-18;-12;-24;-6;-20;-10;-18" dur="1.35s" repeatCount="indefinite" />
+    <rect x="35" y="-18" width="4.5" height="18" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="20;14;26;8;22;12;20" dur="1.3s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-20;-14;-26;-8;-22;-12;-20" dur="1.3s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 7 -->
-    <rect x="42" y="-10" width="4" height="10" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="10;22;14;25;8;16;10" dur="1.15s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-10;-22;-14;-25;-8;-16;-10" dur="1.15s" repeatCount="indefinite" />
+    <rect x="42" y="-10" width="4.5" height="10" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="12;24;16;28;10;18;12" dur="1.12s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-12;-24;-16;-28;-10;-18;-12" dur="1.12s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 8 -->
-    <rect x="49" y="-24" width="4" height="24" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="24;14;8;22;16;25;24" dur="1.25s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-24;-14;-8;-22;-16;-25;-24" dur="1.25s" repeatCount="indefinite" />
+    <rect x="49" y="-24" width="4.5" height="24" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="26;16;10;24;18;28;26" dur="1.2s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-26;-16;-10;-24;-18;-28;-26" dur="1.2s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 9 -->
-    <rect x="56" y="-16" width="4" height="16" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="16;8;22;12;26;14;16" dur="0.95s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-16;-8;-22;-12;-26;-14;-16" dur="0.95s" repeatCount="indefinite" />
+    <rect x="56" y="-16" width="4.5" height="16" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="18;10;24;14;28;16;18" dur="0.92s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-18;-10;-24;-14;-28;-16;-18" dur="0.92s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 10 -->
-    <rect x="63" y="-12" width="4" height="12" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="12;25;10;20;6;18;12" dur="1.45s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-12;-25;-10;-20;-6;-18;-12" dur="1.45s" repeatCount="indefinite" />
+    <rect x="63" y="-12" width="4.5" height="12" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="14;28;12;22;8;20;14" dur="1.4s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-14;-28;-12;-22;-8;-20;-14" dur="1.4s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 11 -->
-    <rect x="70" y="-22" width="4" height="22" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="22;16;25;10;24;8;22" dur="1.05s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-22;-16;-25;-10;-24;-8;-22" dur="1.05s" repeatCount="indefinite" />
+    <rect x="70" y="-22" width="4.5" height="22" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="24;18;28;12;26;10;24" dur="1.05s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-24;-18;-28;-12;-26;-10;-24" dur="1.05s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 12 -->
-    <rect x="77" y="-10" width="4" height="10" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="10;20;8;22;14;25;10" dur="1.3s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-10;-20;-8;-22;-14;-25;-10" dur="1.3s" repeatCount="indefinite" />
+    <rect x="77" y="-10" width="4.5" height="10" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="12;22;10;24;16;28;12" dur="1.28s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-12;-22;-10;-24;-16;-28;-12" dur="1.28s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 13 -->
-    <rect x="84" y="-18" width="4" height="18" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="18;10;24;14;8;22;18" dur="1.2s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-18;-10;-24;-14;-8;-22;-18" dur="1.2s" repeatCount="indefinite" />
+    <rect x="84" y="-18" width="4.5" height="18" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="20;12;26;16;10;24;20" dur="1.18s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-20;-12;-26;-16;-10;-24;-20" dur="1.18s" repeatCount="indefinite" />
     </rect>
-    <!-- Bar 14 -->
-    <rect x="91" y="-8" width="4" height="8" rx="2" fill="url(#barGrad)">
-      <animate attributeName="height" values="8;22;12;26;16;10;8" dur="1.1s" repeatCount="indefinite" />
-      <animate attributeName="y" values="-8;-22;-12;-26;-16;-10;-8" dur="1.1s" repeatCount="indefinite" />
+    <rect x="91" y="-8" width="4.5" height="8" rx="2" fill="url(#barGrad)">
+      <animate attributeName="height" values="10;24;14;28;18;12;10" dur="1.08s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-10;-24;-14;-28;-18;-12;-10" dur="1.08s" repeatCount="indefinite" />
     </rect>
   </g>
 
   <!-- Progress Bar & Scrubbers -->
-  <g transform="translate(195, 146)">
-    <!-- Time elapsed -->
-    <text x="0" y="8" fill="#7aa2f7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">02:48</text>
+  <g transform="translate(205, 150)">
+    <!-- Elapsed Time -->
+    <text x="0" y="8" fill="#7aa2f7" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700">02:48</text>
 
-    <!-- Background bar -->
-    <rect x="42" y="1" width="530" height="7" rx="3.5" fill="#1f2335" />
+    <!-- Rail -->
+    <rect x="44" y="1" width="525" height="7" rx="3.5" fill="#1b1e2d" />
     
-    <!-- Active Progress bar -->
-    <rect x="42" y="1" width="365" height="7" rx="3.5" fill="url(#progressGrad)" />
+    <!-- Active Fill -->
+    <rect x="44" y="1" width="365" height="7" rx="3.5" fill="url(#accentGrad)" />
     
     <!-- Glowing Playhead Knob -->
-    <circle cx="407" cy="4.5" r="6" fill="#7dcfff" filter="url(#neonGlow)" />
-    <circle cx="407" cy="4.5" r="2.5" fill="#0b0d14" />
+    <circle cx="409" cy="4.5" r="6.5" fill="#7dcfff" filter="url(#neonGlow)" />
+    <circle cx="409" cy="4.5" r="2.5" fill="#0b0d14" />
 
-    <!-- Time total -->
-    <text x="585" y="8" fill="#6c7086" font-family="'JetBrains Mono', monospace" font-size="11">04:15</text>
+    <!-- Total Time -->
+    <text x="580" y="8" fill="#7982a9" font-family="'JetBrains Mono', monospace" font-size="11.5">04:15</text>
   </g>
 
-  <!-- Interactive Controls Toolbar -->
-  <g transform="translate(195, 172)">
+  <!-- Interactive Deck Toolbar -->
+  <g transform="translate(205, 178)">
     <!-- Shuffle -->
-    <g class="glow-btn" transform="translate(15, 0)">
+    <g transform="translate(10, 0)">
       <path d="M0 6 h6 l5 8 h7 m-3 -3 l3 3 l-3 3 M0 20 h6 l5 -8 h7 m-3 -3 l3 3 l-3 3" fill="none" stroke="#7aa2f7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 
     <!-- Prev Track -->
-    <g class="glow-btn" transform="translate(65, 0)">
-      <rect x="0" y="6" width="2.5" height="14" fill="#a6adc8" rx="1" />
-      <polygon points="17,6 5,13 17,20" fill="#a6adc8" />
+    <g transform="translate(60, 0)">
+      <rect x="0" y="6" width="2.5" height="14" fill="#a9b1d6" rx="1" />
+      <polygon points="17,6 5,13 17,20" fill="#a9b1d6" />
     </g>
 
-    <!-- Play/Pause Button (Glowing Circle) -->
-    <g class="glow-btn" transform="translate(110, -3)">
-      <circle cx="16" cy="16" r="16" fill="url(#progressGrad)" filter="url(#neonGlow)" />
+    <!-- Play/Pause Button (Glowing Neon Pill) -->
+    <g transform="translate(105, -3)">
+      <circle cx="16" cy="16" r="16" fill="url(#accentGrad)" filter="url(#neonGlow)" />
       <rect x="11" y="10" width="3.5" height="12" rx="1.5" fill="#0b0d14" />
       <rect x="17.5" y="10" width="3.5" height="12" rx="1.5" fill="#0b0d14" />
     </g>
 
     <!-- Next Track -->
-    <g class="glow-btn" transform="translate(165, 0)">
-      <polygon points="5,6 17,13 5,20" fill="#a6adc8" />
-      <rect x="17.5" y="6" width="2.5" height="14" fill="#a6adc8" rx="1" />
+    <g transform="translate(160, 0)">
+      <polygon points="5,6 17,13 5,20" fill="#a9b1d6" />
+      <rect x="17.5" y="6" width="2.5" height="14" fill="#a9b1d6" rx="1" />
     </g>
 
     <!-- Repeat -->
-    <g class="glow-btn" transform="translate(210, 0)">
+    <g transform="translate(205, 0)">
       <path d="M2 10 A7 7 0 0 1 16 7 L14 5 M16 7 L18 10 M18 16 A7 7 0 0 1 4 19 L6 21 M4 19 L2 16" fill="none" stroke="#7aa2f7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 
-    <!-- Volume Bar -->
-    <g transform="translate(380, 5)">
-      <!-- Speaker Icon -->
-      <path d="M0 10 h4 l4 -4 v12 l-4 -4 h-4 z" fill="#a6adc8" />
-      <path d="M11 7 a5 5 0 0 1 0 10 M14 4 a9 9 0 0 1 0 16" fill="none" stroke="#a6adc8" stroke-width="1.5" stroke-linecap="round" />
-      <!-- Volume Slider -->
-      <rect x="25" y="7" width="130" height="4" rx="2" fill="#1f2335" />
-      <rect x="25" y="7" width="95" height="4" rx="2" fill="#7aa2f7" />
-      <circle cx="120" cy="9" r="4" fill="#7dcfff" />
+    <!-- Volume Control -->
+    <g transform="translate(370, 5)">
+      <path d="M0 10 h4 l4 -4 v12 l-4 -4 h-4 z" fill="#a9b1d6" />
+      <path d="M11 7 a5 5 0 0 1 0 10 M14 4 a9 9 0 0 1 0 16" fill="none" stroke="#a9b1d6" stroke-width="1.5" stroke-linecap="round" />
+      <rect x="24" y="7" width="130" height="4" rx="2" fill="#1b1e2d" />
+      <rect x="24" y="7" width="98" height="4" rx="2" fill="#7aa2f7" />
+      <circle cx="122" cy="9" r="4" fill="#7dcfff" />
     </g>
 
-    <!-- Playlist Brand Icon -->
-    <g transform="translate(560, 4)">
-      <rect x="0" y="0" width="65" height="18" rx="9" fill="#1db954" fill-opacity="0.2" stroke="#1db954" stroke-width="1" />
-      <circle cx="10" cy="9" r="5" fill="#1db954" />
-      <path d="M8 8 c2 -0.8 3.5 0 4 0.6 M8 9.5 c1.5 -0.5 2.5 0 3 0.4 M8 11 c1 -0.3 2 0 2.2 0.3" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="round" />
-      <text x="20" y="13" fill="#1db954" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="bold">SPOTIFY</text>
+    <!-- Spotify Platform Pill -->
+    <g transform="translate(555, 4)">
+      <rect x="0" y="0" width="72" height="20" rx="10" fill="#1db954" fill-opacity="0.2" stroke="#1db954" stroke-width="1" />
+      <circle cx="12" cy="10" r="5" fill="#1db954" />
+      <path d="M10 9 c2 -0.8 3.5 0 4 0.6 M10 10.5 c1.5 -0.5 2.5 0 3 0.4 M10 12 c1 -0.3 2 0 2.2 0.3" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="round" />
+      <text x="24" y="14" fill="#1db954" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">SPOTIFY</text>
     </g>
   </g>
 </svg>
